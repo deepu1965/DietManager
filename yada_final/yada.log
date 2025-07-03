@@ -1,0 +1,23 @@
+1743282527182:add-food --id "apple" --keywords "fruit,snack" --calories 95
+1743283183706:create-composite --id "pb_sandwich" --keywords "lunch" --ingredients "bread:2,peanut_butter:1"
+1743283190885:add-food --id "apple" --keywords "fruit,snack" --calories 95
+1743283624691:add-food --id "banana" --keywords "fruit" --calories 105
+1743283640803:log-food --date 2023-10-01 --foodId "banana" --servings 2
+1743321814540:create-composite --id "pb_sandwich" --keywords "lunch" --ingredients "bread:2,peanut_butter:1"
+1743322471131:log-food --date 2023-10-01 --foodId "apple" --servings 2\nlog-food --date 2023-10-01 --foodId "pb_sandwich" --servings 1
+1743322490623:log-food --date 2023-10-01 --foodId "apple" --servings
+1743322496308:log-food --date 2023-10-01 --foodId "apple" --servings 2
+1743322507041:show-log --date 2023-10-01
+1743322513953:undo
+1743322536248:set-profile --gender male --height 175 --weight 70 --age 30 --activityLevel moderate
+1743322551240:show-calories
+1743322612821:exit
+1743322774740:log-food --date 2023-10-01 --foodId "apple" --servings 4
+1743322799877:log-food --date 2023-10-01 --foodId "banana" --servings 2
+1743322821797:log-food --date 2023-10-01 --foodId "pb_sandwich" --servings 1
+1743322826397:undo
+1743323134444:log-food --date 2023-10-01 --foodId "pb_sandwich" --servings 1
+1743323148143:log-food --date 2023-10-01 --foodId "banana" --servings 2
+1743323151771:log-food --date 2023-10-01 --foodId "apple" --servings 4
+1743323154470:undo
+1743325717796:log-food --date 2023-10-01 --foodId "apple" --servings 4

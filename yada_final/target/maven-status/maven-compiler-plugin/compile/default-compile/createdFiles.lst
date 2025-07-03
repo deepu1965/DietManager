@@ -1,0 +1,15 @@
+com/example/yada/model/UserProfile.class
+com/example/yada/service/FoodService.class
+com/example/yada/service/calorie/MifflinStJeorCalculator.class
+com/example/yada/ui/ConsoleUI.class
+com/example/yada/service/LogService.class
+com/example/yada/service/UserProfileService.class
+com/example/yada/YadaApplication.class
+com/example/yada/repository/JsonDataStorage.class
+com/example/yada/model/DailyLog.class
+com/example/yada/service/calorie/CalorieCalculator.class
+com/example/yada/model/LogEntry.class
+com/example/yada/model/CompositeFood.class
+com/example/yada/config/CalorieConfig.class
+com/example/yada/model/BasicFood.class
+com/example/yada/service/calorie/HarrisBenedictCalculator.class
